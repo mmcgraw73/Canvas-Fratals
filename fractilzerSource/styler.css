@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+header {
+	
+	height:auto;
+	width:100%;
+	
+	background-position:center center;
+	background-image: url(http://www.mcgrawtheseeker.com/wordpress/wp-content/uploads/2012/07/fractilizerLogo.png)
+	background-repeat:no-repeat;
+	
+	
+	}
+#outputCanvasDiv {
+	position:block;
+	background-color: #999;
+	border-radius:25px;
+	width:500px;
+	height:500px;
+	float:left;
+	border:groove thick  #F00;
+	box-shadow:black 3px 3px;
+	margin: 15px;
+	padding: 25px;
+	
+	}
+#container {
+	position:relative;
+	background-color:#999;
+	width:500px;
+	height:500px;
+	border-radius:25px;
+	border:groove thick  #F00;
+	box-shadow:black 3px 3px;
+	float:left;
+	margin: 25px;
+	}
+
+#container2 {
+	float:left;
+	width:150px;
+	height:500px;
+	position:inherit;
+	}
+#container3 {
+	float:right;
+	width:500px;
+	height:500px;
+	background-color:#CC0;
+	}
+#instruct{
+	color: #F06;
+	font-family: 'Megrim', normal;
+		
+	}
+	
+
+body {
+	width:auto;
+	margin-bottom:50px;
+	height:auto;
+	background: rgb(167,207,223); /* Old browsers */
+
+background: -moz-radial-gradient(center, ellipse cover,  rgba(167,207,223,1) 0%, rgba(35,83,138,1) 100%); /* FF3.6+ */
+
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(167,207,223,1)), color-stop(100%,rgba(35,83,138,1))); /* Chrome,Safari4+ */
+
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* Chrome10+,Safari5.1+ */
+
+background: -o-radial-gradient(center, ellipse cover,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* Opera 12+ */
+
+background: -ms-radial-gradient(center, ellipse cover,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* IE10+ */
+
+background: radial-gradient(ellipse at center,  rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
+
+	
+	
+	}
+	
+#filler{
+	float:right;
+	width: auto;
+	height: 500px;
+	
+}
+#drawTools {
+	color:white;
+	font-family: 'Megrim', normal;
+ 	font-size:20px;
+	
+	}
+#imageTemp {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	border-radius:25px;
+	}
+	
+#navContain{
+	height:100px;
+	clear:both;
+	width:100%;	
+	background-color:;
+	padding-top:15px;
+	margin-top:25px;
+	border-radius:20px;
+	font-family: 'Megrim', normal;
+	font-size:25px;
+	color: #03C;
+	
+}
+a:unvisited{color:#0CF; text-decoration:none; font-size:25px; }
+a:visited {color:#0CF; text-decoration:none; font-size:25px; }
+a:hover {color:#fff; text-decoration:none; font-size:25px; cursor:pointer}

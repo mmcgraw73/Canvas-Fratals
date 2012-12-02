@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+  	<head>  
+    	<title>FRACTILIZE</title>
+        <link rel="stylesheet" href="styler.css"/>
+		  <script type="text/javascript" src="vectors.js"></script>
+          <script type="text/javascript" src="frames.js"></script>
+          <script type="text/javascript" src="painters.js"></script>
+          <script type="text/javascript" src="draw.js"></script>
+          <script type="text/javascript" src="recurse.js"></script>
+          <script type="text/javascript" src="singleDrawer.js"></script>  
+          <script src="drawFunction.js" type="text/javascript"></script>
+          <link href='http://fonts.googleapis.com/css?family=Monoton|Varela' rel='stylesheet' type='text/css'>
+		  <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+		  <link href='http://fonts.googleapis.com/css?family=Rammetto+One' rel='stylesheet' type='text/css'>
+		  <link href='http://fonts.googleapis.com/css?family=Orbitron:900' rel='stylesheet' type='text/css'>
+    </head> 
+  	<body onload="init();">  
+		<header> </header>
+        
+    	<div id="container">
+      	<canvas id="imageCreate" width="500" height="500">Your Browser doesn't support HTML5, Google Chrome, Safari,FireFox will</canvas>
+        <canvas id="imageTemp" width="500" height="500"></canvas>
+        </div>
+		<div id="container2">
+      		<p>
+    		<label id= "drawTools">
+          	<select id="dtool">
+        	<option value="line">Line</option>
+        	<option value="rect">Doors</option>
+        	<option value="rectangle">Rectangle</option>
+        	<option value="markerT">Free Hand</option>
+        	<option value="circle">Circle</option>
+       		<option value="circleStack">WormHole</option>
+        	<option value="eraser">Eraser</option>
+        	<option value="clearCanvas">Clear All</option>
+      		</select>
+       	    </label>
+        	<br>
+   			<form>
+  			
+    		<input type="button" id="recImage" value="FracTilize Image">
+            <br>
+            <br>
+            <input type="button" id="createImageData" value="Save Original Design"> 
+            <input type="button" id="disImage" value="Save Fractalized Design">
+            
+            <br>
+            <br>
+            <input type="button" id="clearDestination" value="Clear Fractalized Design">
+   			<br>
+            
+           	</form>
+            <div id="instruct">
+            <ul>
+            <li>Choose A Drawing Tool</li>
+            <li>Draw Design on left Canvas</li>
+            <li>Choose "Fractilize" to create design</li>
+            </ul>
+       		</p>
+			</div>
+            </div>
+			<div id="outputCanvasDiv">
+            <canvas id="outputCanvas" width="500" height="500"></canvas>
+            </div>
+            <div id="filler"></div>
+            <br>
+            <br>
+	<div id="navContain">      
+        <nav>
+        <ul>
+    	<li><a href="http://www.mcgrawtheseeker.com/wordpress">Home</a></li>
+
+	    </ul>
+   	    </nav>
+   	    </div>
+	</body>
+</html>
